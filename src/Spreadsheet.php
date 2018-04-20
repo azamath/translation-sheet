@@ -17,7 +17,7 @@ class Spreadsheet
     protected $locales;
 
     /** @var array */
-    protected $translations;
+    protected $translations = [];
 
     /** @var Api */
     protected $api;
